@@ -3,16 +3,17 @@ public class Main
 {
 	public static void main(String args [])
 	{
-		System.out.println("			Welcome to Railways Seat Allocation		");
-		System.out.println("	Please Follow the instructions as follows		");
+		System.out.println("		                    	Welcome to Railways Seat Allocation		");
+		System.out.println("	                             Please Follow the instructions as follows		");
 		Scanner in = new Scanner(System.in);
 		int b;
-		System.out.println("enter the number of seats you want to check");
+		System.out.println("                                         You will get responses dynamically");
+		System.out.println("   Step 1:- enter the number of seats you want to check");
 		b=in.nextInt();
 		int a[]=new int[b];
 		for(int i=0;i<b;i++)
 		{
-			System.out.println("enter your seat numbers");
+			System.out.println("Step 2:- enter your seat numbers");
 			a[i]=in.nextInt();
 			int c;
 			c=a[i];
